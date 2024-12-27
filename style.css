@@ -1,0 +1,84 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #07553B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    background-color:#CED46A;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    opacity: 60;
+}
+
+/* Title styling */
+h1 {
+    margin: 0;
+    color: #07553B;
+    font-size: 24px;
+}
+
+/* Input and button styling */
+#todo-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#add-btn {
+    padding: 10px 15px;
+    background-color: #07553B;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#add-btn:hover {
+    background-color: #218838;
+}
+
+/* List styling */
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+#todo-list li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+/* Example of delete button styling for future use */
+#todo-list li button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#todo-list li button:hover {
+    background-color: #c82333;
+}
